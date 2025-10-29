@@ -10,8 +10,7 @@ class Person{
 }
 class Employee extends Person{
     constructor(name,age,jobtitle){
-        this.name = name;
-        this.age = age;
+        super(name,age)
         this.jobtitle = jobtitle ; 
     }
     jobGreet(){
